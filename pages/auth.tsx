@@ -13,7 +13,7 @@ const Auth = () => {
     const [name, setName] = useState('');
     const [password, setPassword] = useState('');
 
-    const [variant, setVariant] = useState('login'); // Lowercase 'login'
+    const [variant, setVariant] = useState('login'); 
 
     const toggleVariant = useCallback(() => {
         setVariant((currentVariant) => currentVariant === 'login' ? 'register' : 'login');
