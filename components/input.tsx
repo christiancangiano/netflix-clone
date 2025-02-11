@@ -26,7 +26,7 @@ const Input:React.FC<InputProps> = ({
 
                     id={id}
                     className="
-                    Block
+                    block
                     rounded-md
                     px-6
                     pt-6
@@ -50,7 +50,7 @@ const Input:React.FC<InputProps> = ({
                     text-md  
                     text-zinc-400 
                     duration-150 
-                    transfrom 
+                    transform 
                     -translate-y-3 
                     scale-75 
                     top-4 

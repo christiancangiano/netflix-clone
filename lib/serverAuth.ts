@@ -16,7 +16,7 @@ const currentUser = await prismadb.user.findUnique({
 });
 
 if (!currentUser) {
-    throw new Error ('Not signed in');
+    throw new Error ('Unauthorized');
 }
 
 return { currentUser }; 
